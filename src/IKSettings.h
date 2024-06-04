@@ -13,8 +13,8 @@
 
 #define IKPrefs int
 
-#define IKString char *
-#define TCHAR char
+#define IKString const char *
+#define TCHAR const char
 
 enum { kSettingsRateLow = 1, kSettingsRateHigh = 15 };
 
